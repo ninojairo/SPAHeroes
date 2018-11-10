@@ -1,0 +1,13 @@
+<h1>DC & Marvel Heroes</h1>
+<div class="card-columns">
+    <div class="card animated fadeIn fast">
+        <img class="card-img-top img-fluid" src="{{heroe.img}}" alt="Card image cap">
+        <div class="card-block">
+            <h4 class="card-title">{{heroe.nombre}}</h4>
+            <p class="card-text">{{heroe.bio}}</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <a [routerLink]="['/heroes']" class="btn btn-outline-primary btn-block">Come back...</a>
+            <!-- <button (click)="verDetalle(i)" type="button" class="btn btn-outline-primary btn-block">Come back...</button> -->
+        </div>
+    </div>
+</div>
